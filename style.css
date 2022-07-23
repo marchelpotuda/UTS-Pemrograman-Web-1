@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-vector/dynamic-gradient-football-background_23-2149007789.jpg?size=626&ext=jpg&ga=GA1.2.1736273058.1658511126);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 10px rgb(0, 0, 0, .2);
+}
+
+.header {
+    background-image: url(https://img.freepik.com/free-vector/dynamic-gradient-football-background_23-2149007789.jpg?size=626&ext=jpg&ga=GA1.2.1736273058.1658511126);
+    background-size: cover;
+    padding: 60px 30px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}
+
+.header p {
+    font-size: x-small;
+}
+
+.login-area {
+    text-align: center;
+    padding: 0px 50px 30px 50px;
+}
+
+.username,
+.password {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #3A5BA0;
+    margin-bottom: 15px;
+    transition: ,5s;
+}
+
+.username::placeholder,
+.password::placeholder {
+    color: rgba(255, 255, 255, .7);
+}
+
+.username:focus,
+.password:focus {
+    background-color: #001D6E;
+}
+
+.submit {
+    width: 260px;
+    padding: 10px;
+    background-color: #3A5BA0;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #1f0344;
+}
+
+a {
+    display: block;
+    font-size: x-small;
+    text-decoration: none;
+    color: rgba(55, 10, 114, 1);
+    margin-top: 10px;
+}
+
